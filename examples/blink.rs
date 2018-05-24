@@ -13,7 +13,7 @@ extern crate cortex_m_semihosting;
 
 use core::intrinsics;
 
-// This function will be called by the application
+// print hello world via cortex-M semihosting
 fn print() {
     // File descriptor (on the host)
     const STDOUT: usize = 1; // NOTE the host stdout may not always be fd 1
@@ -48,6 +48,8 @@ fn main() -> ! {
     }
     
 }
+
+// TODO -> panic to semihosting
 
 #[lang = "panic_fmt"]
 #[no_mangle]
