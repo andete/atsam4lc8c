@@ -1,5 +1,7 @@
 // (c) 2018 Joost Yervante Damad <joost@damad.be>
 
+// The SAM4L boots in PS0 on RCSYS(115kHz), then the application must switch to PS1 before running on higher frequency (<12MHz)
+
 #![no_std]
 #![no_main]
 
@@ -40,11 +42,8 @@ fn main() -> ! {
     loop {
         // toggle
         atsam.GPIO.ovrt2.write(|w| w.p7().set_bit());
-        // this only works in debug builds
-        // in a release build this will be optimized away
-        for _ in 0..66 {
-            cortex_m::asm::nop();
-        }
+        // as we're running at 115kHz this is 1 sec
+        cortex_m::asm::delay(115000);
     }
 }
 

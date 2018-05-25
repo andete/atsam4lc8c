@@ -40,11 +40,8 @@ fn main() -> ! {
     loop {
         // toggle
         atsam.GPIO.ovrt2.write(|w| w.p7().set_bit());
-        // this only works in debug builds
-        // in a release build this will be optimized away
-        for _ in 0..66 {
-            cortex_m::asm::nop();
-        }
+        // as we're running at 115kHz this is 1 sec
+        cortex_m::asm::delay(115000);
     }
 }
 
