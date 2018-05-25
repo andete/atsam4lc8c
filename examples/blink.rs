@@ -3,11 +3,15 @@
 #![no_std]
 #![no_main]
 
+// ATSAM4LC8C peripheral
 extern crate atsam4lc8c;
+
+// Cortex-M peripheral
 extern crate cortex_m;
 #[macro_use]
 extern crate cortex_m_rt;
-#[macro_use]
+
+// semihosting and logging
 extern crate cortex_m_semihosting;
 extern crate panic_semihosting;
 #[macro_use(d_println, println)]
@@ -20,13 +24,10 @@ fn main() -> ! {
     let atsam = atsam4lc8c::Peripherals::take().unwrap();
     let _cortex = cortex_m::Peripherals::take().unwrap();
 
-    let mut log = cortex_m_log::printer::semihosting::InterruptFree::stdout().unwrap();
+    let mut log = cortex_m_log::printer::semihosting::InterruptOk::stdout().unwrap();
 
     d_println!(log, "hello, mars");
     
-    // on the openocd debug console
-    semi_hello();
-
     // enable PC07
     atsam.GPIO.gpers2.write(|w| w.p7().set_bit());
     // set PC07 as output
