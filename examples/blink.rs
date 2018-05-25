@@ -2,7 +2,6 @@
 
 #![no_std]
 #![no_main]
-#![feature(core_intrinsics, lang_items)]
 
 extern crate atsam4lc8c;
 extern crate cortex_m;
@@ -12,27 +11,25 @@ extern crate cortex_m_rt;
 extern crate cortex_m_semihosting;
 extern crate panic_semihosting;
 
-use core::intrinsics;
-
 // print hello world via cortex-M semihosting
-fn print() {
+fn semi_hello() {
     // File descriptor (on the host)
     const STDOUT: usize = 1; // NOTE the host stdout may not always be fd 1
     static MSG: &'static [u8] = b"Hello, world!\n";
 
     // Signature: fn write(fd: usize, ptr: *const u8, len: usize) -> usize
-    let r = unsafe { syscall!(WRITE, STDOUT, MSG.as_ptr(), MSG.len()) };
+    let _r = unsafe { syscall!(WRITE, STDOUT, MSG.as_ptr(), MSG.len()) };
 }
 
 entry!(main);
 
 fn main() -> ! {
     
-    let mut atsam = atsam4lc8c::Peripherals::take().unwrap();
-    let mut cortex = cortex_m::Peripherals::take().unwrap();
+    let atsam = atsam4lc8c::Peripherals::take().unwrap();
+    let _cortex = cortex_m::Peripherals::take().unwrap();
 
     // on the openocd debug console
-    print();
+    semi_hello();
 
     // enable PC07
     atsam.GPIO.gpers2.write(|w| w.p7().set_bit());
@@ -47,9 +44,8 @@ fn main() -> ! {
         // toggle
         atsam.GPIO.ovrt2.write(|w| w.p7().set_bit());
         // abuse semihosting to slow down :)
-        print();
+        semi_hello();
     }
-    
 }
 
 // define the hard fault handler
