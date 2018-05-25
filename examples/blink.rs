@@ -10,6 +10,7 @@ extern crate cortex_m;
 extern crate cortex_m_rt;
 #[macro_use]
 extern crate cortex_m_semihosting;
+extern crate panic_semihosting;
 
 use core::intrinsics;
 
@@ -35,10 +36,12 @@ fn main() -> ! {
 
     // enable PC07
     atsam.GPIO.gpers2.write(|w| w.p7().set_bit());
+    // set PC07 as output
     atsam.GPIO.oders2.write(|w| w.p7().set_bit());
-    
 
+    // set
     //atsam.GPIO.ovrs2.write(|w| w.p7().set_bit());
+    // clear
     //atsam.GPIO.ovrc2.write(|w| w.p7().set_bit());
     loop {
         // toggle
@@ -47,17 +50,6 @@ fn main() -> ! {
         print();
     }
     
-}
-
-// TODO -> panic to semihosting
-
-#[lang = "panic_fmt"]
-#[no_mangle]
-pub extern fn rust_begin_panic(_msg: core::fmt::Arguments,
-                               _file: &'static str,
-                               _line: u32,
-                               _column: u32) -> ! {
-    unsafe { intrinsics::abort() }
 }
 
 // define the hard fault handler
