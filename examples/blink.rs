@@ -10,24 +10,20 @@ extern crate cortex_m_rt;
 #[macro_use]
 extern crate cortex_m_semihosting;
 extern crate panic_semihosting;
-
-// print hello world via cortex-M semihosting
-fn semi_hello() {
-    // File descriptor (on the host)
-    const STDOUT: usize = 1; // NOTE the host stdout may not always be fd 1
-    static MSG: &'static [u8] = b"Hello, world!\n";
-
-    // Signature: fn write(fd: usize, ptr: *const u8, len: usize) -> usize
-    let _r = unsafe { syscall!(WRITE, STDOUT, MSG.as_ptr(), MSG.len()) };
-}
+#[macro_use(d_println, println)]
+extern crate cortex_m_log;
 
 entry!(main);
 
 fn main() -> ! {
-    
+
     let atsam = atsam4lc8c::Peripherals::take().unwrap();
     let _cortex = cortex_m::Peripherals::take().unwrap();
 
+    let mut log = cortex_m_log::printer::semihosting::InterruptFree::stdout().unwrap();
+
+    d_println!(log, "hello, mars");
+    
     // on the openocd debug console
     semi_hello();
 
@@ -44,7 +40,7 @@ fn main() -> ! {
         // toggle
         atsam.GPIO.ovrt2.write(|w| w.p7().set_bit());
         // abuse semihosting to slow down :)
-        semi_hello();
+        d_println!(log, "hello, world");
     }
 }
 
