@@ -1,4 +1,4 @@
 language: rust
-rust: beta
+rust: nightly
 before_script:
     - rustup target add thumbv7em-none-eabihf
