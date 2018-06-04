@@ -8,6 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/rustit-be/atsam4lc8c"
 documentation = "https://docs.rs/atsam4lc8c"
 categories = ["embedded", "hardware-support"]
+exclude = [ "doc/*", "*.sh" ]
 
 [dependencies]
 bare-metal = "0.2.0"
