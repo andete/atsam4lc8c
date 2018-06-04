@@ -1,4 +1,8 @@
 language: rust
 rust: nightly
+sudo: required
+before_install:
+    - sudo apt-get update -qq
+    - sudo apt-get install -qq gcc-arm-none-eabi binutils-arm-none-eabi
 before_script:
     - rustup target add thumbv7em-none-eabihf
