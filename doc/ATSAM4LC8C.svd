@@ -32021,6 +32021,49 @@
               <description>Main Clock Select</description>
               <bitOffset>0</bitOffset>
               <bitWidth>3</bitWidth>
+              <enumeratedValues>
+                <name>MCSelect</name>
+                <enumeratedValue>
+                  <name>RCSYS</name>
+                  <description>System RC oscillator</description>
+                  <value>0x0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>OSC0</name>
+                  <description>Oscillator0</description>
+                  <value>0x1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>PLL</name>
+                  <description>PLL</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>DFLL</name>
+                  <description>DFLL</description>
+                  <value>0x3</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>RC80M</name>
+                  <description>80 MHz RC oscillator</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>RCFAST</name>
+                  <description>4/8/12 MHz RC oscillator</description>
+                  <value>0x5</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>RC1M</name>
+                  <description>1 MHz RC oscillator</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Reserved</name>
+                  <description>Reserved</description>
+                  <value>0x7</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
           </fields>
         </register>
