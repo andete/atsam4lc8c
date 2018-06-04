@@ -32203,61 +32203,61 @@
           <resetValue>0x000001E2</resetValue>
           <fields>
             <field>
-              <name>PDCA_</name>
+              <name>PDCA</name>
               <description>PDCA HSB Clock Mask</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>HFLASHC_</name>
-              <description>HFLASHC HSB Clock Mask</description>
+              <name>FLASHCALW</name>
+              <description>FLASHCALW HSB Clock Mask</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>HRAMC1_</name>
-              <description>HRAMC1 HSB Clock Mask</description>
+              <name>PICOCACHE</name>
+              <description>FLASHCALW picoCache RAM HSB Clock Mask</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>USBC_</name>
+              <name>USBC</name>
               <description>USBC HSB Clock Mask</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>CRCCU_</name>
+              <name>CRCCU</name>
               <description>CRCCU HSB Clock Mask</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>HTOP0_</name>
-              <description>HTOP0 HSB Clock Mask</description>
+              <name>APBAB</name>
+              <description>APBA Bridge HSB Clock Mask</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>HTOP1_</name>
-              <description>HTOP1 HSB Clock Mask</description>
+              <name>APBBB</name>
+              <description>APBB Bridge HSB Clock Mask</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>HTOP2_</name>
-              <description>HTOP2 HSB Clock Mask</description>
+              <name>APBCB</name>
+              <description>APBC Bridge HSB Clock Mask</description>
               <bitOffset>7</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>HTOP3_</name>
-              <description>HTOP3 HSB Clock Mask</description>
+              <name>APBDB</name>
+              <description>APBD Bridge HSB Clock Mask</description>
               <bitOffset>8</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>AESA_</name>
+              <name>AESA</name>
               <description>AESA HSB Clock Mask</description>
               <bitOffset>9</bitOffset>
               <bitWidth>1</bitWidth>
@@ -32271,139 +32271,139 @@
           <size>32</size>
           <fields>
             <field>
-              <name>IISC_</name>
+              <name>IISC</name>
               <description>IISC APB Clock Enable</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>SPI_</name>
+              <name>SPI</name>
               <description>SPI APB Clock Enable</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TC0_</name>
+              <name>TC0</name>
               <description>TC0 APB Clock Enable</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TC1_</name>
+              <name>TC1</name>
               <description>TC1 APB Clock Enable</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TWIM0_</name>
+              <name>TWIM0</name>
               <description>TWIM0 APB Clock Enable</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TWIS0_</name>
+              <name>TWIS0</name>
               <description>TWIS0 APB Clock Enable</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TWIM1_</name>
+              <name>TWIM1</name>
               <description>TWIM1 APB Clock Enable</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TWIS1_</name>
+              <name>TWIS1</name>
               <description>TWIS1 APB Clock Enable</description>
               <bitOffset>7</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>USART0_</name>
+              <name>USART0</name>
               <description>USART0 APB Clock Enable</description>
               <bitOffset>8</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>USART1_</name>
+              <name>USART1</name>
               <description>USART1 APB Clock Enable</description>
               <bitOffset>9</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>USART2_</name>
+              <name>USART2</name>
               <description>USART2 APB Clock Enable</description>
               <bitOffset>10</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>USART3_</name>
+              <name>USART3</name>
               <description>USART3 APB Clock Enable</description>
               <bitOffset>11</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>ADCIFE_</name>
+              <name>ADCIFE</name>
               <description>ADCIFE APB Clock Enable</description>
               <bitOffset>12</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>DACC_</name>
+              <name>DACC</name>
               <description>DACC APB Clock Enable</description>
               <bitOffset>13</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>ACIFC_</name>
+              <name>ACIFC</name>
               <description>ACIFC APB Clock Enable</description>
               <bitOffset>14</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>GLOC_</name>
+              <name>GLOC</name>
               <description>GLOC APB Clock Enable</description>
               <bitOffset>15</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>ABDACB_</name>
+              <name>ABDACB</name>
               <description>ABDACB APB Clock Enable</description>
               <bitOffset>16</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TRNG_</name>
+              <name>TRNG</name>
               <description>TRNG APB Clock Enable</description>
               <bitOffset>17</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>PARC_</name>
+              <name>PARC</name>
               <description>PARC APB Clock Enable</description>
               <bitOffset>18</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>CATB_</name>
+              <name>CATB</name>
               <description>CATB APB Clock Enable</description>
               <bitOffset>19</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TWIM2_</name>
+              <name>TWIM2</name>
               <description>TWIM2 APB Clock Enable</description>
               <bitOffset>21</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>TWIM3_</name>
+              <name>TWIM3</name>
               <description>TWIM3 APB Clock Enable</description>
               <bitOffset>22</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>LCDCA_</name>
+              <name>LCDCA</name>
               <description>LCDCA APB Clock Enable</description>
               <bitOffset>23</bitOffset>
               <bitWidth>1</bitWidth>
@@ -32418,43 +32418,43 @@
           <resetValue>0x00000001</resetValue>
           <fields>
             <field>
-              <name>HFLASHC_</name>
-              <description>HFLASHC APB Clock Enable</description>
+              <name>FLASHCALW</name>
+              <description>FLASHCALW APB Clock Enable</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>HCACHE_</name>
-              <description>HCACHE APB Clock Enable</description>
+              <name>HRAMC1</name>
+              <description>HRAMC1 APB Clock Enable</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>HMATRIX_</name>
+              <name>HMATRIX</name>
               <description>HMATRIX APB Clock Enable</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>PDCA_</name>
+              <name>PDCA</name>
               <description>PDCA APB Clock Enable</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>CRCCU_</name>
+              <name>CRCCU</name>
               <description>CRCCU APB Clock Enable</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>USBC_</name>
+              <name>USBC</name>
               <description>USBC APB Clock Enable</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>PEVC_</name>
+              <name>PEVC</name>
               <description>PEVC APB Clock Enable</description>
               <bitOffset>6</bitOffset>
               <bitWidth>1</bitWidth>
@@ -32469,31 +32469,31 @@
           <resetValue>0x0000001F</resetValue>
           <fields>
             <field>
-              <name>PM_</name>
+              <name>PM</name>
               <description>PM APB Clock Enable</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>CHIPID_</name>
+              <name>CHIPID</name>
               <description>CHIPID APB Clock Enable</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>SCIF_</name>
+              <name>SCIF</name>
               <description>SCIF APB Clock Enable</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>FREQM_</name>
+              <name>FREQM</name>
               <description>FREQM APB Clock Enable</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>GPIO_</name>
+              <name>GPIO</name>
               <description>GPIO APB Clock Enable</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
@@ -32508,37 +32508,37 @@
           <resetValue>0x0000003F</resetValue>
           <fields>
             <field>
-              <name>BPM_</name>
+              <name>BPM</name>
               <description>BPM APB Clock Enable</description>
               <bitOffset>0</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>BSCIF_</name>
+              <name>BSCIF</name>
               <description>BSCIF APB Clock Enable</description>
               <bitOffset>1</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>AST_</name>
+              <name>AST</name>
               <description>AST APB Clock Enable</description>
               <bitOffset>2</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>WDT_</name>
+              <name>WDT</name>
               <description>WDT APB Clock Enable</description>
               <bitOffset>3</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>EIC_</name>
+              <name>EIC</name>
               <description>EIC APB Clock Enable</description>
               <bitOffset>4</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>PICOUART_</name>
+              <name>PICOUART</name>
               <description>PICOUART APB Clock Enable</description>
               <bitOffset>5</bitOffset>
               <bitWidth>1</bitWidth>

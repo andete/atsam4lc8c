@@ -43,10 +43,10 @@ impl super::HSBMASK {
     }
 }
 #[doc = r" Value of the field"]
-pub struct PDCA_R {
+pub struct PDCAR {
     bits: bool,
 }
-impl PDCA_R {
+impl PDCAR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -64,10 +64,10 @@ impl PDCA_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct HFLASHC_R {
+pub struct FLASHCALWR {
     bits: bool,
 }
-impl HFLASHC_R {
+impl FLASHCALWR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -85,10 +85,10 @@ impl HFLASHC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct HRAMC1_R {
+pub struct PICOCACHER {
     bits: bool,
 }
-impl HRAMC1_R {
+impl PICOCACHER {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -106,10 +106,10 @@ impl HRAMC1_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct USBC_R {
+pub struct USBCR {
     bits: bool,
 }
-impl USBC_R {
+impl USBCR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -127,10 +127,10 @@ impl USBC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct CRCCU_R {
+pub struct CRCCUR {
     bits: bool,
 }
-impl CRCCU_R {
+impl CRCCUR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -148,10 +148,10 @@ impl CRCCU_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct HTOP0_R {
+pub struct APBABR {
     bits: bool,
 }
-impl HTOP0_R {
+impl APBABR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -169,10 +169,10 @@ impl HTOP0_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct HTOP1_R {
+pub struct APBBBR {
     bits: bool,
 }
-impl HTOP1_R {
+impl APBBBR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -190,10 +190,10 @@ impl HTOP1_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct HTOP2_R {
+pub struct APBCBR {
     bits: bool,
 }
-impl HTOP2_R {
+impl APBCBR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -211,10 +211,10 @@ impl HTOP2_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct HTOP3_R {
+pub struct APBDBR {
     bits: bool,
 }
-impl HTOP3_R {
+impl APBDBR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -232,10 +232,10 @@ impl HTOP3_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct AESA_R {
+pub struct AESAR {
     bits: bool,
 }
-impl AESA_R {
+impl AESAR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -253,10 +253,10 @@ impl AESA_R {
     }
 }
 #[doc = r" Proxy"]
-pub struct _PDCA_W<'a> {
+pub struct _PDCAW<'a> {
     w: &'a mut W,
 }
-impl<'a> _PDCA_W<'a> {
+impl<'a> _PDCAW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -276,10 +276,10 @@ impl<'a> _PDCA_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _HFLASHC_W<'a> {
+pub struct _FLASHCALWW<'a> {
     w: &'a mut W,
 }
-impl<'a> _HFLASHC_W<'a> {
+impl<'a> _FLASHCALWW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -299,10 +299,10 @@ impl<'a> _HFLASHC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _HRAMC1_W<'a> {
+pub struct _PICOCACHEW<'a> {
     w: &'a mut W,
 }
-impl<'a> _HRAMC1_W<'a> {
+impl<'a> _PICOCACHEW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -322,10 +322,10 @@ impl<'a> _HRAMC1_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _USBC_W<'a> {
+pub struct _USBCW<'a> {
     w: &'a mut W,
 }
-impl<'a> _USBC_W<'a> {
+impl<'a> _USBCW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -345,10 +345,10 @@ impl<'a> _USBC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _CRCCU_W<'a> {
+pub struct _CRCCUW<'a> {
     w: &'a mut W,
 }
-impl<'a> _CRCCU_W<'a> {
+impl<'a> _CRCCUW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -368,10 +368,10 @@ impl<'a> _CRCCU_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _HTOP0_W<'a> {
+pub struct _APBABW<'a> {
     w: &'a mut W,
 }
-impl<'a> _HTOP0_W<'a> {
+impl<'a> _APBABW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -391,10 +391,10 @@ impl<'a> _HTOP0_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _HTOP1_W<'a> {
+pub struct _APBBBW<'a> {
     w: &'a mut W,
 }
-impl<'a> _HTOP1_W<'a> {
+impl<'a> _APBBBW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -414,10 +414,10 @@ impl<'a> _HTOP1_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _HTOP2_W<'a> {
+pub struct _APBCBW<'a> {
     w: &'a mut W,
 }
-impl<'a> _HTOP2_W<'a> {
+impl<'a> _APBCBW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -437,10 +437,10 @@ impl<'a> _HTOP2_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _HTOP3_W<'a> {
+pub struct _APBDBW<'a> {
     w: &'a mut W,
 }
-impl<'a> _HTOP3_W<'a> {
+impl<'a> _APBDBW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -460,10 +460,10 @@ impl<'a> _HTOP3_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _AESA_W<'a> {
+pub struct _AESAW<'a> {
     w: &'a mut W,
 }
-impl<'a> _AESA_W<'a> {
+impl<'a> _AESAW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -490,103 +490,103 @@ impl R {
     }
     #[doc = "Bit 0 - PDCA HSB Clock Mask"]
     #[inline]
-    pub fn pdca_(&self) -> PDCA_R {
+    pub fn pdca(&self) -> PDCAR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 0;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        PDCA_R { bits }
+        PDCAR { bits }
     }
-    #[doc = "Bit 1 - HFLASHC HSB Clock Mask"]
+    #[doc = "Bit 1 - FLASHCALW HSB Clock Mask"]
     #[inline]
-    pub fn hflashc_(&self) -> HFLASHC_R {
+    pub fn flashcalw(&self) -> FLASHCALWR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 1;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        HFLASHC_R { bits }
+        FLASHCALWR { bits }
     }
-    #[doc = "Bit 2 - HRAMC1 HSB Clock Mask"]
+    #[doc = "Bit 2 - FLASHCALW picoCache RAM HSB Clock Mask"]
     #[inline]
-    pub fn hramc1_(&self) -> HRAMC1_R {
+    pub fn picocache(&self) -> PICOCACHER {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 2;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        HRAMC1_R { bits }
+        PICOCACHER { bits }
     }
     #[doc = "Bit 3 - USBC HSB Clock Mask"]
     #[inline]
-    pub fn usbc_(&self) -> USBC_R {
+    pub fn usbc(&self) -> USBCR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 3;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        USBC_R { bits }
+        USBCR { bits }
     }
     #[doc = "Bit 4 - CRCCU HSB Clock Mask"]
     #[inline]
-    pub fn crccu_(&self) -> CRCCU_R {
+    pub fn crccu(&self) -> CRCCUR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 4;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        CRCCU_R { bits }
+        CRCCUR { bits }
     }
-    #[doc = "Bit 5 - HTOP0 HSB Clock Mask"]
+    #[doc = "Bit 5 - APBA Bridge HSB Clock Mask"]
     #[inline]
-    pub fn htop0_(&self) -> HTOP0_R {
+    pub fn apbab(&self) -> APBABR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 5;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        HTOP0_R { bits }
+        APBABR { bits }
     }
-    #[doc = "Bit 6 - HTOP1 HSB Clock Mask"]
+    #[doc = "Bit 6 - APBB Bridge HSB Clock Mask"]
     #[inline]
-    pub fn htop1_(&self) -> HTOP1_R {
+    pub fn apbbb(&self) -> APBBBR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 6;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        HTOP1_R { bits }
+        APBBBR { bits }
     }
-    #[doc = "Bit 7 - HTOP2 HSB Clock Mask"]
+    #[doc = "Bit 7 - APBC Bridge HSB Clock Mask"]
     #[inline]
-    pub fn htop2_(&self) -> HTOP2_R {
+    pub fn apbcb(&self) -> APBCBR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 7;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        HTOP2_R { bits }
+        APBCBR { bits }
     }
-    #[doc = "Bit 8 - HTOP3 HSB Clock Mask"]
+    #[doc = "Bit 8 - APBD Bridge HSB Clock Mask"]
     #[inline]
-    pub fn htop3_(&self) -> HTOP3_R {
+    pub fn apbdb(&self) -> APBDBR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 8;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        HTOP3_R { bits }
+        APBDBR { bits }
     }
     #[doc = "Bit 9 - AESA HSB Clock Mask"]
     #[inline]
-    pub fn aesa_(&self) -> AESA_R {
+    pub fn aesa(&self) -> AESAR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 9;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        AESA_R { bits }
+        AESAR { bits }
     }
 }
 impl W {
@@ -603,52 +603,52 @@ impl W {
     }
     #[doc = "Bit 0 - PDCA HSB Clock Mask"]
     #[inline]
-    pub fn pdca_(&mut self) -> _PDCA_W {
-        _PDCA_W { w: self }
+    pub fn pdca(&mut self) -> _PDCAW {
+        _PDCAW { w: self }
     }
-    #[doc = "Bit 1 - HFLASHC HSB Clock Mask"]
+    #[doc = "Bit 1 - FLASHCALW HSB Clock Mask"]
     #[inline]
-    pub fn hflashc_(&mut self) -> _HFLASHC_W {
-        _HFLASHC_W { w: self }
+    pub fn flashcalw(&mut self) -> _FLASHCALWW {
+        _FLASHCALWW { w: self }
     }
-    #[doc = "Bit 2 - HRAMC1 HSB Clock Mask"]
+    #[doc = "Bit 2 - FLASHCALW picoCache RAM HSB Clock Mask"]
     #[inline]
-    pub fn hramc1_(&mut self) -> _HRAMC1_W {
-        _HRAMC1_W { w: self }
+    pub fn picocache(&mut self) -> _PICOCACHEW {
+        _PICOCACHEW { w: self }
     }
     #[doc = "Bit 3 - USBC HSB Clock Mask"]
     #[inline]
-    pub fn usbc_(&mut self) -> _USBC_W {
-        _USBC_W { w: self }
+    pub fn usbc(&mut self) -> _USBCW {
+        _USBCW { w: self }
     }
     #[doc = "Bit 4 - CRCCU HSB Clock Mask"]
     #[inline]
-    pub fn crccu_(&mut self) -> _CRCCU_W {
-        _CRCCU_W { w: self }
+    pub fn crccu(&mut self) -> _CRCCUW {
+        _CRCCUW { w: self }
     }
-    #[doc = "Bit 5 - HTOP0 HSB Clock Mask"]
+    #[doc = "Bit 5 - APBA Bridge HSB Clock Mask"]
     #[inline]
-    pub fn htop0_(&mut self) -> _HTOP0_W {
-        _HTOP0_W { w: self }
+    pub fn apbab(&mut self) -> _APBABW {
+        _APBABW { w: self }
     }
-    #[doc = "Bit 6 - HTOP1 HSB Clock Mask"]
+    #[doc = "Bit 6 - APBB Bridge HSB Clock Mask"]
     #[inline]
-    pub fn htop1_(&mut self) -> _HTOP1_W {
-        _HTOP1_W { w: self }
+    pub fn apbbb(&mut self) -> _APBBBW {
+        _APBBBW { w: self }
     }
-    #[doc = "Bit 7 - HTOP2 HSB Clock Mask"]
+    #[doc = "Bit 7 - APBC Bridge HSB Clock Mask"]
     #[inline]
-    pub fn htop2_(&mut self) -> _HTOP2_W {
-        _HTOP2_W { w: self }
+    pub fn apbcb(&mut self) -> _APBCBW {
+        _APBCBW { w: self }
     }
-    #[doc = "Bit 8 - HTOP3 HSB Clock Mask"]
+    #[doc = "Bit 8 - APBD Bridge HSB Clock Mask"]
     #[inline]
-    pub fn htop3_(&mut self) -> _HTOP3_W {
-        _HTOP3_W { w: self }
+    pub fn apbdb(&mut self) -> _APBDBW {
+        _APBDBW { w: self }
     }
     #[doc = "Bit 9 - AESA HSB Clock Mask"]
     #[inline]
-    pub fn aesa_(&mut self) -> _AESA_W {
-        _AESA_W { w: self }
+    pub fn aesa(&mut self) -> _AESAW {
+        _AESAW { w: self }
     }
 }

@@ -43,10 +43,10 @@ impl super::PBDMASK {
     }
 }
 #[doc = r" Value of the field"]
-pub struct BPM_R {
+pub struct BPMR {
     bits: bool,
 }
-impl BPM_R {
+impl BPMR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -64,10 +64,10 @@ impl BPM_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct BSCIF_R {
+pub struct BSCIFR {
     bits: bool,
 }
-impl BSCIF_R {
+impl BSCIFR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -85,10 +85,10 @@ impl BSCIF_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct AST_R {
+pub struct ASTR {
     bits: bool,
 }
-impl AST_R {
+impl ASTR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -106,10 +106,10 @@ impl AST_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct WDT_R {
+pub struct WDTR {
     bits: bool,
 }
-impl WDT_R {
+impl WDTR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -127,10 +127,10 @@ impl WDT_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct EIC_R {
+pub struct EICR {
     bits: bool,
 }
-impl EIC_R {
+impl EICR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -148,10 +148,10 @@ impl EIC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct PICOUART_R {
+pub struct PICOUARTR {
     bits: bool,
 }
-impl PICOUART_R {
+impl PICOUARTR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -169,10 +169,10 @@ impl PICOUART_R {
     }
 }
 #[doc = r" Proxy"]
-pub struct _BPM_W<'a> {
+pub struct _BPMW<'a> {
     w: &'a mut W,
 }
-impl<'a> _BPM_W<'a> {
+impl<'a> _BPMW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -192,10 +192,10 @@ impl<'a> _BPM_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _BSCIF_W<'a> {
+pub struct _BSCIFW<'a> {
     w: &'a mut W,
 }
-impl<'a> _BSCIF_W<'a> {
+impl<'a> _BSCIFW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -215,10 +215,10 @@ impl<'a> _BSCIF_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _AST_W<'a> {
+pub struct _ASTW<'a> {
     w: &'a mut W,
 }
-impl<'a> _AST_W<'a> {
+impl<'a> _ASTW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -238,10 +238,10 @@ impl<'a> _AST_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _WDT_W<'a> {
+pub struct _WDTW<'a> {
     w: &'a mut W,
 }
-impl<'a> _WDT_W<'a> {
+impl<'a> _WDTW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -261,10 +261,10 @@ impl<'a> _WDT_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _EIC_W<'a> {
+pub struct _EICW<'a> {
     w: &'a mut W,
 }
-impl<'a> _EIC_W<'a> {
+impl<'a> _EICW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -284,10 +284,10 @@ impl<'a> _EIC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _PICOUART_W<'a> {
+pub struct _PICOUARTW<'a> {
     w: &'a mut W,
 }
-impl<'a> _PICOUART_W<'a> {
+impl<'a> _PICOUARTW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -314,63 +314,63 @@ impl R {
     }
     #[doc = "Bit 0 - BPM APB Clock Enable"]
     #[inline]
-    pub fn bpm_(&self) -> BPM_R {
+    pub fn bpm(&self) -> BPMR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 0;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        BPM_R { bits }
+        BPMR { bits }
     }
     #[doc = "Bit 1 - BSCIF APB Clock Enable"]
     #[inline]
-    pub fn bscif_(&self) -> BSCIF_R {
+    pub fn bscif(&self) -> BSCIFR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 1;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        BSCIF_R { bits }
+        BSCIFR { bits }
     }
     #[doc = "Bit 2 - AST APB Clock Enable"]
     #[inline]
-    pub fn ast_(&self) -> AST_R {
+    pub fn ast(&self) -> ASTR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 2;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        AST_R { bits }
+        ASTR { bits }
     }
     #[doc = "Bit 3 - WDT APB Clock Enable"]
     #[inline]
-    pub fn wdt_(&self) -> WDT_R {
+    pub fn wdt(&self) -> WDTR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 3;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        WDT_R { bits }
+        WDTR { bits }
     }
     #[doc = "Bit 4 - EIC APB Clock Enable"]
     #[inline]
-    pub fn eic_(&self) -> EIC_R {
+    pub fn eic(&self) -> EICR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 4;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        EIC_R { bits }
+        EICR { bits }
     }
     #[doc = "Bit 5 - PICOUART APB Clock Enable"]
     #[inline]
-    pub fn picouart_(&self) -> PICOUART_R {
+    pub fn picouart(&self) -> PICOUARTR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 5;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        PICOUART_R { bits }
+        PICOUARTR { bits }
     }
 }
 impl W {
@@ -387,32 +387,32 @@ impl W {
     }
     #[doc = "Bit 0 - BPM APB Clock Enable"]
     #[inline]
-    pub fn bpm_(&mut self) -> _BPM_W {
-        _BPM_W { w: self }
+    pub fn bpm(&mut self) -> _BPMW {
+        _BPMW { w: self }
     }
     #[doc = "Bit 1 - BSCIF APB Clock Enable"]
     #[inline]
-    pub fn bscif_(&mut self) -> _BSCIF_W {
-        _BSCIF_W { w: self }
+    pub fn bscif(&mut self) -> _BSCIFW {
+        _BSCIFW { w: self }
     }
     #[doc = "Bit 2 - AST APB Clock Enable"]
     #[inline]
-    pub fn ast_(&mut self) -> _AST_W {
-        _AST_W { w: self }
+    pub fn ast(&mut self) -> _ASTW {
+        _ASTW { w: self }
     }
     #[doc = "Bit 3 - WDT APB Clock Enable"]
     #[inline]
-    pub fn wdt_(&mut self) -> _WDT_W {
-        _WDT_W { w: self }
+    pub fn wdt(&mut self) -> _WDTW {
+        _WDTW { w: self }
     }
     #[doc = "Bit 4 - EIC APB Clock Enable"]
     #[inline]
-    pub fn eic_(&mut self) -> _EIC_W {
-        _EIC_W { w: self }
+    pub fn eic(&mut self) -> _EICW {
+        _EICW { w: self }
     }
     #[doc = "Bit 5 - PICOUART APB Clock Enable"]
     #[inline]
-    pub fn picouart_(&mut self) -> _PICOUART_W {
-        _PICOUART_W { w: self }
+    pub fn picouart(&mut self) -> _PICOUARTW {
+        _PICOUARTW { w: self }
     }
 }

@@ -43,10 +43,10 @@ impl super::PBAMASK {
     }
 }
 #[doc = r" Value of the field"]
-pub struct IISC_R {
+pub struct IISCR {
     bits: bool,
 }
-impl IISC_R {
+impl IISCR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -64,10 +64,10 @@ impl IISC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct SPI_R {
+pub struct SPIR {
     bits: bool,
 }
-impl SPI_R {
+impl SPIR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -85,10 +85,10 @@ impl SPI_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TC0_R {
+pub struct TC0R {
     bits: bool,
 }
-impl TC0_R {
+impl TC0R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -106,10 +106,10 @@ impl TC0_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TC1_R {
+pub struct TC1R {
     bits: bool,
 }
-impl TC1_R {
+impl TC1R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -127,10 +127,10 @@ impl TC1_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TWIM0_R {
+pub struct TWIM0R {
     bits: bool,
 }
-impl TWIM0_R {
+impl TWIM0R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -148,10 +148,10 @@ impl TWIM0_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TWIS0_R {
+pub struct TWIS0R {
     bits: bool,
 }
-impl TWIS0_R {
+impl TWIS0R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -169,10 +169,10 @@ impl TWIS0_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TWIM1_R {
+pub struct TWIM1R {
     bits: bool,
 }
-impl TWIM1_R {
+impl TWIM1R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -190,10 +190,10 @@ impl TWIM1_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TWIS1_R {
+pub struct TWIS1R {
     bits: bool,
 }
-impl TWIS1_R {
+impl TWIS1R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -211,10 +211,10 @@ impl TWIS1_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct USART0_R {
+pub struct USART0R {
     bits: bool,
 }
-impl USART0_R {
+impl USART0R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -232,10 +232,10 @@ impl USART0_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct USART1_R {
+pub struct USART1R {
     bits: bool,
 }
-impl USART1_R {
+impl USART1R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -253,10 +253,10 @@ impl USART1_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct USART2_R {
+pub struct USART2R {
     bits: bool,
 }
-impl USART2_R {
+impl USART2R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -274,10 +274,10 @@ impl USART2_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct USART3_R {
+pub struct USART3R {
     bits: bool,
 }
-impl USART3_R {
+impl USART3R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -295,10 +295,10 @@ impl USART3_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct ADCIFE_R {
+pub struct ADCIFER {
     bits: bool,
 }
-impl ADCIFE_R {
+impl ADCIFER {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -316,10 +316,10 @@ impl ADCIFE_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct DACC_R {
+pub struct DACCR {
     bits: bool,
 }
-impl DACC_R {
+impl DACCR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -337,10 +337,10 @@ impl DACC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct ACIFC_R {
+pub struct ACIFCR {
     bits: bool,
 }
-impl ACIFC_R {
+impl ACIFCR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -358,10 +358,10 @@ impl ACIFC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct GLOC_R {
+pub struct GLOCR {
     bits: bool,
 }
-impl GLOC_R {
+impl GLOCR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -379,10 +379,10 @@ impl GLOC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct ABDACB_R {
+pub struct ABDACBR {
     bits: bool,
 }
-impl ABDACB_R {
+impl ABDACBR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -400,10 +400,10 @@ impl ABDACB_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TRNG_R {
+pub struct TRNGR {
     bits: bool,
 }
-impl TRNG_R {
+impl TRNGR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -421,10 +421,10 @@ impl TRNG_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct PARC_R {
+pub struct PARCR {
     bits: bool,
 }
-impl PARC_R {
+impl PARCR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -442,10 +442,10 @@ impl PARC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct CATB_R {
+pub struct CATBR {
     bits: bool,
 }
-impl CATB_R {
+impl CATBR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -463,10 +463,10 @@ impl CATB_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TWIM2_R {
+pub struct TWIM2R {
     bits: bool,
 }
-impl TWIM2_R {
+impl TWIM2R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -484,10 +484,10 @@ impl TWIM2_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct TWIM3_R {
+pub struct TWIM3R {
     bits: bool,
 }
-impl TWIM3_R {
+impl TWIM3R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -505,10 +505,10 @@ impl TWIM3_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct LCDCA_R {
+pub struct LCDCAR {
     bits: bool,
 }
-impl LCDCA_R {
+impl LCDCAR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -526,10 +526,10 @@ impl LCDCA_R {
     }
 }
 #[doc = r" Proxy"]
-pub struct _IISC_W<'a> {
+pub struct _IISCW<'a> {
     w: &'a mut W,
 }
-impl<'a> _IISC_W<'a> {
+impl<'a> _IISCW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -549,10 +549,10 @@ impl<'a> _IISC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _SPI_W<'a> {
+pub struct _SPIW<'a> {
     w: &'a mut W,
 }
-impl<'a> _SPI_W<'a> {
+impl<'a> _SPIW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -572,10 +572,10 @@ impl<'a> _SPI_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TC0_W<'a> {
+pub struct _TC0W<'a> {
     w: &'a mut W,
 }
-impl<'a> _TC0_W<'a> {
+impl<'a> _TC0W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -595,10 +595,10 @@ impl<'a> _TC0_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TC1_W<'a> {
+pub struct _TC1W<'a> {
     w: &'a mut W,
 }
-impl<'a> _TC1_W<'a> {
+impl<'a> _TC1W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -618,10 +618,10 @@ impl<'a> _TC1_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TWIM0_W<'a> {
+pub struct _TWIM0W<'a> {
     w: &'a mut W,
 }
-impl<'a> _TWIM0_W<'a> {
+impl<'a> _TWIM0W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -641,10 +641,10 @@ impl<'a> _TWIM0_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TWIS0_W<'a> {
+pub struct _TWIS0W<'a> {
     w: &'a mut W,
 }
-impl<'a> _TWIS0_W<'a> {
+impl<'a> _TWIS0W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -664,10 +664,10 @@ impl<'a> _TWIS0_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TWIM1_W<'a> {
+pub struct _TWIM1W<'a> {
     w: &'a mut W,
 }
-impl<'a> _TWIM1_W<'a> {
+impl<'a> _TWIM1W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -687,10 +687,10 @@ impl<'a> _TWIM1_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TWIS1_W<'a> {
+pub struct _TWIS1W<'a> {
     w: &'a mut W,
 }
-impl<'a> _TWIS1_W<'a> {
+impl<'a> _TWIS1W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -710,10 +710,10 @@ impl<'a> _TWIS1_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _USART0_W<'a> {
+pub struct _USART0W<'a> {
     w: &'a mut W,
 }
-impl<'a> _USART0_W<'a> {
+impl<'a> _USART0W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -733,10 +733,10 @@ impl<'a> _USART0_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _USART1_W<'a> {
+pub struct _USART1W<'a> {
     w: &'a mut W,
 }
-impl<'a> _USART1_W<'a> {
+impl<'a> _USART1W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -756,10 +756,10 @@ impl<'a> _USART1_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _USART2_W<'a> {
+pub struct _USART2W<'a> {
     w: &'a mut W,
 }
-impl<'a> _USART2_W<'a> {
+impl<'a> _USART2W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -779,10 +779,10 @@ impl<'a> _USART2_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _USART3_W<'a> {
+pub struct _USART3W<'a> {
     w: &'a mut W,
 }
-impl<'a> _USART3_W<'a> {
+impl<'a> _USART3W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -802,10 +802,10 @@ impl<'a> _USART3_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _ADCIFE_W<'a> {
+pub struct _ADCIFEW<'a> {
     w: &'a mut W,
 }
-impl<'a> _ADCIFE_W<'a> {
+impl<'a> _ADCIFEW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -825,10 +825,10 @@ impl<'a> _ADCIFE_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _DACC_W<'a> {
+pub struct _DACCW<'a> {
     w: &'a mut W,
 }
-impl<'a> _DACC_W<'a> {
+impl<'a> _DACCW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -848,10 +848,10 @@ impl<'a> _DACC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _ACIFC_W<'a> {
+pub struct _ACIFCW<'a> {
     w: &'a mut W,
 }
-impl<'a> _ACIFC_W<'a> {
+impl<'a> _ACIFCW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -871,10 +871,10 @@ impl<'a> _ACIFC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _GLOC_W<'a> {
+pub struct _GLOCW<'a> {
     w: &'a mut W,
 }
-impl<'a> _GLOC_W<'a> {
+impl<'a> _GLOCW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -894,10 +894,10 @@ impl<'a> _GLOC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _ABDACB_W<'a> {
+pub struct _ABDACBW<'a> {
     w: &'a mut W,
 }
-impl<'a> _ABDACB_W<'a> {
+impl<'a> _ABDACBW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -917,10 +917,10 @@ impl<'a> _ABDACB_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TRNG_W<'a> {
+pub struct _TRNGW<'a> {
     w: &'a mut W,
 }
-impl<'a> _TRNG_W<'a> {
+impl<'a> _TRNGW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -940,10 +940,10 @@ impl<'a> _TRNG_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _PARC_W<'a> {
+pub struct _PARCW<'a> {
     w: &'a mut W,
 }
-impl<'a> _PARC_W<'a> {
+impl<'a> _PARCW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -963,10 +963,10 @@ impl<'a> _PARC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _CATB_W<'a> {
+pub struct _CATBW<'a> {
     w: &'a mut W,
 }
-impl<'a> _CATB_W<'a> {
+impl<'a> _CATBW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -986,10 +986,10 @@ impl<'a> _CATB_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TWIM2_W<'a> {
+pub struct _TWIM2W<'a> {
     w: &'a mut W,
 }
-impl<'a> _TWIM2_W<'a> {
+impl<'a> _TWIM2W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -1009,10 +1009,10 @@ impl<'a> _TWIM2_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _TWIM3_W<'a> {
+pub struct _TWIM3W<'a> {
     w: &'a mut W,
 }
-impl<'a> _TWIM3_W<'a> {
+impl<'a> _TWIM3W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -1032,10 +1032,10 @@ impl<'a> _TWIM3_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _LCDCA_W<'a> {
+pub struct _LCDCAW<'a> {
     w: &'a mut W,
 }
-impl<'a> _LCDCA_W<'a> {
+impl<'a> _LCDCAW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -1062,233 +1062,233 @@ impl R {
     }
     #[doc = "Bit 0 - IISC APB Clock Enable"]
     #[inline]
-    pub fn iisc_(&self) -> IISC_R {
+    pub fn iisc(&self) -> IISCR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 0;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        IISC_R { bits }
+        IISCR { bits }
     }
     #[doc = "Bit 1 - SPI APB Clock Enable"]
     #[inline]
-    pub fn spi_(&self) -> SPI_R {
+    pub fn spi(&self) -> SPIR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 1;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        SPI_R { bits }
+        SPIR { bits }
     }
     #[doc = "Bit 2 - TC0 APB Clock Enable"]
     #[inline]
-    pub fn tc0_(&self) -> TC0_R {
+    pub fn tc0(&self) -> TC0R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 2;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TC0_R { bits }
+        TC0R { bits }
     }
     #[doc = "Bit 3 - TC1 APB Clock Enable"]
     #[inline]
-    pub fn tc1_(&self) -> TC1_R {
+    pub fn tc1(&self) -> TC1R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 3;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TC1_R { bits }
+        TC1R { bits }
     }
     #[doc = "Bit 4 - TWIM0 APB Clock Enable"]
     #[inline]
-    pub fn twim0_(&self) -> TWIM0_R {
+    pub fn twim0(&self) -> TWIM0R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 4;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TWIM0_R { bits }
+        TWIM0R { bits }
     }
     #[doc = "Bit 5 - TWIS0 APB Clock Enable"]
     #[inline]
-    pub fn twis0_(&self) -> TWIS0_R {
+    pub fn twis0(&self) -> TWIS0R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 5;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TWIS0_R { bits }
+        TWIS0R { bits }
     }
     #[doc = "Bit 6 - TWIM1 APB Clock Enable"]
     #[inline]
-    pub fn twim1_(&self) -> TWIM1_R {
+    pub fn twim1(&self) -> TWIM1R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 6;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TWIM1_R { bits }
+        TWIM1R { bits }
     }
     #[doc = "Bit 7 - TWIS1 APB Clock Enable"]
     #[inline]
-    pub fn twis1_(&self) -> TWIS1_R {
+    pub fn twis1(&self) -> TWIS1R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 7;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TWIS1_R { bits }
+        TWIS1R { bits }
     }
     #[doc = "Bit 8 - USART0 APB Clock Enable"]
     #[inline]
-    pub fn usart0_(&self) -> USART0_R {
+    pub fn usart0(&self) -> USART0R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 8;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        USART0_R { bits }
+        USART0R { bits }
     }
     #[doc = "Bit 9 - USART1 APB Clock Enable"]
     #[inline]
-    pub fn usart1_(&self) -> USART1_R {
+    pub fn usart1(&self) -> USART1R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 9;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        USART1_R { bits }
+        USART1R { bits }
     }
     #[doc = "Bit 10 - USART2 APB Clock Enable"]
     #[inline]
-    pub fn usart2_(&self) -> USART2_R {
+    pub fn usart2(&self) -> USART2R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 10;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        USART2_R { bits }
+        USART2R { bits }
     }
     #[doc = "Bit 11 - USART3 APB Clock Enable"]
     #[inline]
-    pub fn usart3_(&self) -> USART3_R {
+    pub fn usart3(&self) -> USART3R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 11;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        USART3_R { bits }
+        USART3R { bits }
     }
     #[doc = "Bit 12 - ADCIFE APB Clock Enable"]
     #[inline]
-    pub fn adcife_(&self) -> ADCIFE_R {
+    pub fn adcife(&self) -> ADCIFER {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 12;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        ADCIFE_R { bits }
+        ADCIFER { bits }
     }
     #[doc = "Bit 13 - DACC APB Clock Enable"]
     #[inline]
-    pub fn dacc_(&self) -> DACC_R {
+    pub fn dacc(&self) -> DACCR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 13;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        DACC_R { bits }
+        DACCR { bits }
     }
     #[doc = "Bit 14 - ACIFC APB Clock Enable"]
     #[inline]
-    pub fn acifc_(&self) -> ACIFC_R {
+    pub fn acifc(&self) -> ACIFCR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 14;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        ACIFC_R { bits }
+        ACIFCR { bits }
     }
     #[doc = "Bit 15 - GLOC APB Clock Enable"]
     #[inline]
-    pub fn gloc_(&self) -> GLOC_R {
+    pub fn gloc(&self) -> GLOCR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 15;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        GLOC_R { bits }
+        GLOCR { bits }
     }
     #[doc = "Bit 16 - ABDACB APB Clock Enable"]
     #[inline]
-    pub fn abdacb_(&self) -> ABDACB_R {
+    pub fn abdacb(&self) -> ABDACBR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 16;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        ABDACB_R { bits }
+        ABDACBR { bits }
     }
     #[doc = "Bit 17 - TRNG APB Clock Enable"]
     #[inline]
-    pub fn trng_(&self) -> TRNG_R {
+    pub fn trng(&self) -> TRNGR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 17;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TRNG_R { bits }
+        TRNGR { bits }
     }
     #[doc = "Bit 18 - PARC APB Clock Enable"]
     #[inline]
-    pub fn parc_(&self) -> PARC_R {
+    pub fn parc(&self) -> PARCR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 18;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        PARC_R { bits }
+        PARCR { bits }
     }
     #[doc = "Bit 19 - CATB APB Clock Enable"]
     #[inline]
-    pub fn catb_(&self) -> CATB_R {
+    pub fn catb(&self) -> CATBR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 19;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        CATB_R { bits }
+        CATBR { bits }
     }
     #[doc = "Bit 21 - TWIM2 APB Clock Enable"]
     #[inline]
-    pub fn twim2_(&self) -> TWIM2_R {
+    pub fn twim2(&self) -> TWIM2R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 21;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TWIM2_R { bits }
+        TWIM2R { bits }
     }
     #[doc = "Bit 22 - TWIM3 APB Clock Enable"]
     #[inline]
-    pub fn twim3_(&self) -> TWIM3_R {
+    pub fn twim3(&self) -> TWIM3R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 22;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        TWIM3_R { bits }
+        TWIM3R { bits }
     }
     #[doc = "Bit 23 - LCDCA APB Clock Enable"]
     #[inline]
-    pub fn lcdca_(&self) -> LCDCA_R {
+    pub fn lcdca(&self) -> LCDCAR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 23;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        LCDCA_R { bits }
+        LCDCAR { bits }
     }
 }
 impl W {
@@ -1305,117 +1305,117 @@ impl W {
     }
     #[doc = "Bit 0 - IISC APB Clock Enable"]
     #[inline]
-    pub fn iisc_(&mut self) -> _IISC_W {
-        _IISC_W { w: self }
+    pub fn iisc(&mut self) -> _IISCW {
+        _IISCW { w: self }
     }
     #[doc = "Bit 1 - SPI APB Clock Enable"]
     #[inline]
-    pub fn spi_(&mut self) -> _SPI_W {
-        _SPI_W { w: self }
+    pub fn spi(&mut self) -> _SPIW {
+        _SPIW { w: self }
     }
     #[doc = "Bit 2 - TC0 APB Clock Enable"]
     #[inline]
-    pub fn tc0_(&mut self) -> _TC0_W {
-        _TC0_W { w: self }
+    pub fn tc0(&mut self) -> _TC0W {
+        _TC0W { w: self }
     }
     #[doc = "Bit 3 - TC1 APB Clock Enable"]
     #[inline]
-    pub fn tc1_(&mut self) -> _TC1_W {
-        _TC1_W { w: self }
+    pub fn tc1(&mut self) -> _TC1W {
+        _TC1W { w: self }
     }
     #[doc = "Bit 4 - TWIM0 APB Clock Enable"]
     #[inline]
-    pub fn twim0_(&mut self) -> _TWIM0_W {
-        _TWIM0_W { w: self }
+    pub fn twim0(&mut self) -> _TWIM0W {
+        _TWIM0W { w: self }
     }
     #[doc = "Bit 5 - TWIS0 APB Clock Enable"]
     #[inline]
-    pub fn twis0_(&mut self) -> _TWIS0_W {
-        _TWIS0_W { w: self }
+    pub fn twis0(&mut self) -> _TWIS0W {
+        _TWIS0W { w: self }
     }
     #[doc = "Bit 6 - TWIM1 APB Clock Enable"]
     #[inline]
-    pub fn twim1_(&mut self) -> _TWIM1_W {
-        _TWIM1_W { w: self }
+    pub fn twim1(&mut self) -> _TWIM1W {
+        _TWIM1W { w: self }
     }
     #[doc = "Bit 7 - TWIS1 APB Clock Enable"]
     #[inline]
-    pub fn twis1_(&mut self) -> _TWIS1_W {
-        _TWIS1_W { w: self }
+    pub fn twis1(&mut self) -> _TWIS1W {
+        _TWIS1W { w: self }
     }
     #[doc = "Bit 8 - USART0 APB Clock Enable"]
     #[inline]
-    pub fn usart0_(&mut self) -> _USART0_W {
-        _USART0_W { w: self }
+    pub fn usart0(&mut self) -> _USART0W {
+        _USART0W { w: self }
     }
     #[doc = "Bit 9 - USART1 APB Clock Enable"]
     #[inline]
-    pub fn usart1_(&mut self) -> _USART1_W {
-        _USART1_W { w: self }
+    pub fn usart1(&mut self) -> _USART1W {
+        _USART1W { w: self }
     }
     #[doc = "Bit 10 - USART2 APB Clock Enable"]
     #[inline]
-    pub fn usart2_(&mut self) -> _USART2_W {
-        _USART2_W { w: self }
+    pub fn usart2(&mut self) -> _USART2W {
+        _USART2W { w: self }
     }
     #[doc = "Bit 11 - USART3 APB Clock Enable"]
     #[inline]
-    pub fn usart3_(&mut self) -> _USART3_W {
-        _USART3_W { w: self }
+    pub fn usart3(&mut self) -> _USART3W {
+        _USART3W { w: self }
     }
     #[doc = "Bit 12 - ADCIFE APB Clock Enable"]
     #[inline]
-    pub fn adcife_(&mut self) -> _ADCIFE_W {
-        _ADCIFE_W { w: self }
+    pub fn adcife(&mut self) -> _ADCIFEW {
+        _ADCIFEW { w: self }
     }
     #[doc = "Bit 13 - DACC APB Clock Enable"]
     #[inline]
-    pub fn dacc_(&mut self) -> _DACC_W {
-        _DACC_W { w: self }
+    pub fn dacc(&mut self) -> _DACCW {
+        _DACCW { w: self }
     }
     #[doc = "Bit 14 - ACIFC APB Clock Enable"]
     #[inline]
-    pub fn acifc_(&mut self) -> _ACIFC_W {
-        _ACIFC_W { w: self }
+    pub fn acifc(&mut self) -> _ACIFCW {
+        _ACIFCW { w: self }
     }
     #[doc = "Bit 15 - GLOC APB Clock Enable"]
     #[inline]
-    pub fn gloc_(&mut self) -> _GLOC_W {
-        _GLOC_W { w: self }
+    pub fn gloc(&mut self) -> _GLOCW {
+        _GLOCW { w: self }
     }
     #[doc = "Bit 16 - ABDACB APB Clock Enable"]
     #[inline]
-    pub fn abdacb_(&mut self) -> _ABDACB_W {
-        _ABDACB_W { w: self }
+    pub fn abdacb(&mut self) -> _ABDACBW {
+        _ABDACBW { w: self }
     }
     #[doc = "Bit 17 - TRNG APB Clock Enable"]
     #[inline]
-    pub fn trng_(&mut self) -> _TRNG_W {
-        _TRNG_W { w: self }
+    pub fn trng(&mut self) -> _TRNGW {
+        _TRNGW { w: self }
     }
     #[doc = "Bit 18 - PARC APB Clock Enable"]
     #[inline]
-    pub fn parc_(&mut self) -> _PARC_W {
-        _PARC_W { w: self }
+    pub fn parc(&mut self) -> _PARCW {
+        _PARCW { w: self }
     }
     #[doc = "Bit 19 - CATB APB Clock Enable"]
     #[inline]
-    pub fn catb_(&mut self) -> _CATB_W {
-        _CATB_W { w: self }
+    pub fn catb(&mut self) -> _CATBW {
+        _CATBW { w: self }
     }
     #[doc = "Bit 21 - TWIM2 APB Clock Enable"]
     #[inline]
-    pub fn twim2_(&mut self) -> _TWIM2_W {
-        _TWIM2_W { w: self }
+    pub fn twim2(&mut self) -> _TWIM2W {
+        _TWIM2W { w: self }
     }
     #[doc = "Bit 22 - TWIM3 APB Clock Enable"]
     #[inline]
-    pub fn twim3_(&mut self) -> _TWIM3_W {
-        _TWIM3_W { w: self }
+    pub fn twim3(&mut self) -> _TWIM3W {
+        _TWIM3W { w: self }
     }
     #[doc = "Bit 23 - LCDCA APB Clock Enable"]
     #[inline]
-    pub fn lcdca_(&mut self) -> _LCDCA_W {
-        _LCDCA_W { w: self }
+    pub fn lcdca(&mut self) -> _LCDCAW {
+        _LCDCAW { w: self }
     }
 }

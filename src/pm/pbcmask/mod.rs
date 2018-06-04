@@ -43,10 +43,10 @@ impl super::PBCMASK {
     }
 }
 #[doc = r" Value of the field"]
-pub struct PM_R {
+pub struct PMR {
     bits: bool,
 }
-impl PM_R {
+impl PMR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -64,10 +64,10 @@ impl PM_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct CHIPID_R {
+pub struct CHIPIDR {
     bits: bool,
 }
-impl CHIPID_R {
+impl CHIPIDR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -85,10 +85,10 @@ impl CHIPID_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct SCIF_R {
+pub struct SCIFR {
     bits: bool,
 }
-impl SCIF_R {
+impl SCIFR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -106,10 +106,10 @@ impl SCIF_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct FREQM_R {
+pub struct FREQMR {
     bits: bool,
 }
-impl FREQM_R {
+impl FREQMR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -127,10 +127,10 @@ impl FREQM_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct GPIO_R {
+pub struct GPIOR {
     bits: bool,
 }
-impl GPIO_R {
+impl GPIOR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -148,10 +148,10 @@ impl GPIO_R {
     }
 }
 #[doc = r" Proxy"]
-pub struct _PM_W<'a> {
+pub struct _PMW<'a> {
     w: &'a mut W,
 }
-impl<'a> _PM_W<'a> {
+impl<'a> _PMW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -171,10 +171,10 @@ impl<'a> _PM_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _CHIPID_W<'a> {
+pub struct _CHIPIDW<'a> {
     w: &'a mut W,
 }
-impl<'a> _CHIPID_W<'a> {
+impl<'a> _CHIPIDW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -194,10 +194,10 @@ impl<'a> _CHIPID_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _SCIF_W<'a> {
+pub struct _SCIFW<'a> {
     w: &'a mut W,
 }
-impl<'a> _SCIF_W<'a> {
+impl<'a> _SCIFW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -217,10 +217,10 @@ impl<'a> _SCIF_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _FREQM_W<'a> {
+pub struct _FREQMW<'a> {
     w: &'a mut W,
 }
-impl<'a> _FREQM_W<'a> {
+impl<'a> _FREQMW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -240,10 +240,10 @@ impl<'a> _FREQM_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _GPIO_W<'a> {
+pub struct _GPIOW<'a> {
     w: &'a mut W,
 }
-impl<'a> _GPIO_W<'a> {
+impl<'a> _GPIOW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -270,53 +270,53 @@ impl R {
     }
     #[doc = "Bit 0 - PM APB Clock Enable"]
     #[inline]
-    pub fn pm_(&self) -> PM_R {
+    pub fn pm(&self) -> PMR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 0;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        PM_R { bits }
+        PMR { bits }
     }
     #[doc = "Bit 1 - CHIPID APB Clock Enable"]
     #[inline]
-    pub fn chipid_(&self) -> CHIPID_R {
+    pub fn chipid(&self) -> CHIPIDR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 1;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        CHIPID_R { bits }
+        CHIPIDR { bits }
     }
     #[doc = "Bit 2 - SCIF APB Clock Enable"]
     #[inline]
-    pub fn scif_(&self) -> SCIF_R {
+    pub fn scif(&self) -> SCIFR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 2;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        SCIF_R { bits }
+        SCIFR { bits }
     }
     #[doc = "Bit 3 - FREQM APB Clock Enable"]
     #[inline]
-    pub fn freqm_(&self) -> FREQM_R {
+    pub fn freqm(&self) -> FREQMR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 3;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        FREQM_R { bits }
+        FREQMR { bits }
     }
     #[doc = "Bit 4 - GPIO APB Clock Enable"]
     #[inline]
-    pub fn gpio_(&self) -> GPIO_R {
+    pub fn gpio(&self) -> GPIOR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 4;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        GPIO_R { bits }
+        GPIOR { bits }
     }
 }
 impl W {
@@ -333,27 +333,27 @@ impl W {
     }
     #[doc = "Bit 0 - PM APB Clock Enable"]
     #[inline]
-    pub fn pm_(&mut self) -> _PM_W {
-        _PM_W { w: self }
+    pub fn pm(&mut self) -> _PMW {
+        _PMW { w: self }
     }
     #[doc = "Bit 1 - CHIPID APB Clock Enable"]
     #[inline]
-    pub fn chipid_(&mut self) -> _CHIPID_W {
-        _CHIPID_W { w: self }
+    pub fn chipid(&mut self) -> _CHIPIDW {
+        _CHIPIDW { w: self }
     }
     #[doc = "Bit 2 - SCIF APB Clock Enable"]
     #[inline]
-    pub fn scif_(&mut self) -> _SCIF_W {
-        _SCIF_W { w: self }
+    pub fn scif(&mut self) -> _SCIFW {
+        _SCIFW { w: self }
     }
     #[doc = "Bit 3 - FREQM APB Clock Enable"]
     #[inline]
-    pub fn freqm_(&mut self) -> _FREQM_W {
-        _FREQM_W { w: self }
+    pub fn freqm(&mut self) -> _FREQMW {
+        _FREQMW { w: self }
     }
     #[doc = "Bit 4 - GPIO APB Clock Enable"]
     #[inline]
-    pub fn gpio_(&mut self) -> _GPIO_W {
-        _GPIO_W { w: self }
+    pub fn gpio(&mut self) -> _GPIOW {
+        _GPIOW { w: self }
     }
 }

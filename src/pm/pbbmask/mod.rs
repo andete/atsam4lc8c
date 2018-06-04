@@ -43,10 +43,10 @@ impl super::PBBMASK {
     }
 }
 #[doc = r" Value of the field"]
-pub struct HFLASHC_R {
+pub struct FLASHCALWR {
     bits: bool,
 }
-impl HFLASHC_R {
+impl FLASHCALWR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -64,10 +64,10 @@ impl HFLASHC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct HCACHE_R {
+pub struct HRAMC1R {
     bits: bool,
 }
-impl HCACHE_R {
+impl HRAMC1R {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -85,10 +85,10 @@ impl HCACHE_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct HMATRIX_R {
+pub struct HMATRIXR {
     bits: bool,
 }
-impl HMATRIX_R {
+impl HMATRIXR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -106,10 +106,10 @@ impl HMATRIX_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct PDCA_R {
+pub struct PDCAR {
     bits: bool,
 }
-impl PDCA_R {
+impl PDCAR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -127,10 +127,10 @@ impl PDCA_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct CRCCU_R {
+pub struct CRCCUR {
     bits: bool,
 }
-impl CRCCU_R {
+impl CRCCUR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -148,10 +148,10 @@ impl CRCCU_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct USBC_R {
+pub struct USBCR {
     bits: bool,
 }
-impl USBC_R {
+impl USBCR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -169,10 +169,10 @@ impl USBC_R {
     }
 }
 #[doc = r" Value of the field"]
-pub struct PEVC_R {
+pub struct PEVCR {
     bits: bool,
 }
-impl PEVC_R {
+impl PEVCR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bit(&self) -> bool {
@@ -190,10 +190,10 @@ impl PEVC_R {
     }
 }
 #[doc = r" Proxy"]
-pub struct _HFLASHC_W<'a> {
+pub struct _FLASHCALWW<'a> {
     w: &'a mut W,
 }
-impl<'a> _HFLASHC_W<'a> {
+impl<'a> _FLASHCALWW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -213,10 +213,10 @@ impl<'a> _HFLASHC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _HCACHE_W<'a> {
+pub struct _HRAMC1W<'a> {
     w: &'a mut W,
 }
-impl<'a> _HCACHE_W<'a> {
+impl<'a> _HRAMC1W<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -236,10 +236,10 @@ impl<'a> _HCACHE_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _HMATRIX_W<'a> {
+pub struct _HMATRIXW<'a> {
     w: &'a mut W,
 }
-impl<'a> _HMATRIX_W<'a> {
+impl<'a> _HMATRIXW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -259,10 +259,10 @@ impl<'a> _HMATRIX_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _PDCA_W<'a> {
+pub struct _PDCAW<'a> {
     w: &'a mut W,
 }
-impl<'a> _PDCA_W<'a> {
+impl<'a> _PDCAW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -282,10 +282,10 @@ impl<'a> _PDCA_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _CRCCU_W<'a> {
+pub struct _CRCCUW<'a> {
     w: &'a mut W,
 }
-impl<'a> _CRCCU_W<'a> {
+impl<'a> _CRCCUW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -305,10 +305,10 @@ impl<'a> _CRCCU_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _USBC_W<'a> {
+pub struct _USBCW<'a> {
     w: &'a mut W,
 }
-impl<'a> _USBC_W<'a> {
+impl<'a> _USBCW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -328,10 +328,10 @@ impl<'a> _USBC_W<'a> {
     }
 }
 #[doc = r" Proxy"]
-pub struct _PEVC_W<'a> {
+pub struct _PEVCW<'a> {
     w: &'a mut W,
 }
-impl<'a> _PEVC_W<'a> {
+impl<'a> _PEVCW<'a> {
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
         self.bit(true)
@@ -356,75 +356,75 @@ impl R {
     pub fn bits(&self) -> u32 {
         self.bits
     }
-    #[doc = "Bit 0 - HFLASHC APB Clock Enable"]
+    #[doc = "Bit 0 - FLASHCALW APB Clock Enable"]
     #[inline]
-    pub fn hflashc_(&self) -> HFLASHC_R {
+    pub fn flashcalw(&self) -> FLASHCALWR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 0;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        HFLASHC_R { bits }
+        FLASHCALWR { bits }
     }
-    #[doc = "Bit 1 - HCACHE APB Clock Enable"]
+    #[doc = "Bit 1 - HRAMC1 APB Clock Enable"]
     #[inline]
-    pub fn hcache_(&self) -> HCACHE_R {
+    pub fn hramc1(&self) -> HRAMC1R {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 1;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        HCACHE_R { bits }
+        HRAMC1R { bits }
     }
     #[doc = "Bit 2 - HMATRIX APB Clock Enable"]
     #[inline]
-    pub fn hmatrix_(&self) -> HMATRIX_R {
+    pub fn hmatrix(&self) -> HMATRIXR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 2;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        HMATRIX_R { bits }
+        HMATRIXR { bits }
     }
     #[doc = "Bit 3 - PDCA APB Clock Enable"]
     #[inline]
-    pub fn pdca_(&self) -> PDCA_R {
+    pub fn pdca(&self) -> PDCAR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 3;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        PDCA_R { bits }
+        PDCAR { bits }
     }
     #[doc = "Bit 4 - CRCCU APB Clock Enable"]
     #[inline]
-    pub fn crccu_(&self) -> CRCCU_R {
+    pub fn crccu(&self) -> CRCCUR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 4;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        CRCCU_R { bits }
+        CRCCUR { bits }
     }
     #[doc = "Bit 5 - USBC APB Clock Enable"]
     #[inline]
-    pub fn usbc_(&self) -> USBC_R {
+    pub fn usbc(&self) -> USBCR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 5;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        USBC_R { bits }
+        USBCR { bits }
     }
     #[doc = "Bit 6 - PEVC APB Clock Enable"]
     #[inline]
-    pub fn pevc_(&self) -> PEVC_R {
+    pub fn pevc(&self) -> PEVCR {
         let bits = {
             const MASK: bool = true;
             const OFFSET: u8 = 6;
             ((self.bits >> OFFSET) & MASK as u32) != 0
         };
-        PEVC_R { bits }
+        PEVCR { bits }
     }
 }
 impl W {
@@ -439,39 +439,39 @@ impl W {
         self.bits = bits;
         self
     }
-    #[doc = "Bit 0 - HFLASHC APB Clock Enable"]
+    #[doc = "Bit 0 - FLASHCALW APB Clock Enable"]
     #[inline]
-    pub fn hflashc_(&mut self) -> _HFLASHC_W {
-        _HFLASHC_W { w: self }
+    pub fn flashcalw(&mut self) -> _FLASHCALWW {
+        _FLASHCALWW { w: self }
     }
-    #[doc = "Bit 1 - HCACHE APB Clock Enable"]
+    #[doc = "Bit 1 - HRAMC1 APB Clock Enable"]
     #[inline]
-    pub fn hcache_(&mut self) -> _HCACHE_W {
-        _HCACHE_W { w: self }
+    pub fn hramc1(&mut self) -> _HRAMC1W {
+        _HRAMC1W { w: self }
     }
     #[doc = "Bit 2 - HMATRIX APB Clock Enable"]
     #[inline]
-    pub fn hmatrix_(&mut self) -> _HMATRIX_W {
-        _HMATRIX_W { w: self }
+    pub fn hmatrix(&mut self) -> _HMATRIXW {
+        _HMATRIXW { w: self }
     }
     #[doc = "Bit 3 - PDCA APB Clock Enable"]
     #[inline]
-    pub fn pdca_(&mut self) -> _PDCA_W {
-        _PDCA_W { w: self }
+    pub fn pdca(&mut self) -> _PDCAW {
+        _PDCAW { w: self }
     }
     #[doc = "Bit 4 - CRCCU APB Clock Enable"]
     #[inline]
-    pub fn crccu_(&mut self) -> _CRCCU_W {
-        _CRCCU_W { w: self }
+    pub fn crccu(&mut self) -> _CRCCUW {
+        _CRCCUW { w: self }
     }
     #[doc = "Bit 5 - USBC APB Clock Enable"]
     #[inline]
-    pub fn usbc_(&mut self) -> _USBC_W {
-        _USBC_W { w: self }
+    pub fn usbc(&mut self) -> _USBCW {
+        _USBCW { w: self }
     }
     #[doc = "Bit 6 - PEVC APB Clock Enable"]
     #[inline]
-    pub fn pevc_(&mut self) -> _PEVC_W {
-        _PEVC_W { w: self }
+    pub fn pevc(&mut self) -> _PEVCW {
+        _PEVCW { w: self }
     }
 }
